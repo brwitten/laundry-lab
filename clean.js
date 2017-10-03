@@ -8,7 +8,8 @@ var dirty_clothes = [
 
 /* YOUR CODE HERE */
 function clean(clothing_item){
-    // return clean_clothing_item;
+    clean_clothing_item = clothing_item.replace("*","");
+    return mended_clothing_item;
 }
 
 
