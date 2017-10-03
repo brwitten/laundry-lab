@@ -9,9 +9,11 @@ var wrinkled_clothes = [
 
 /* YOUR CODE HERE */
 function iron(clothing_item){
-    // return ironed_clothing_item;
+    var lowerCase = clothing_item.toLowerCase();
+    return lowerCase;
 }
 
+iron("grEEn shIrt");
 
 /* PRINT RESULT */
 console.log("--> Finished running iron.js");
